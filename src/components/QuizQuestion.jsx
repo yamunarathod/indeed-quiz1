@@ -481,7 +481,7 @@ const QuizQuestion = ({ question, onAnswer, timeUp, questionNumber, totalQuestio
 
 
 
-        <div className="flex flex-col w-full h-[400px] gap-4 mt-[100px]">
+        <div className="flex flex-col w-full  gap-4 mt-[100px] px-4 py-6">
           {/* Top Row: Question Number and Timer */}
           <div className="flex items-center justify-between w-full">
             {/* Question Number */}
@@ -501,17 +501,17 @@ const QuizQuestion = ({ question, onAnswer, timeUp, questionNumber, totalQuestio
                   backgroundPosition: "center",
                 }}
               >
-                <span className="mt-5  text-[#000] px-3 py-1 rounded-lg">{timeLeft}</span>
+                <span className="mt-5 text-[#000] px-3 py-1 rounded-lg">{timeLeft}</span>
               </div>
             </div>
-
           </div>
 
           {/* Question Display */}
           <div className="flex flex-col items-center">
-            <h3 className="mt-4 text-[48px] text-gray-800">{question.question}</h3>
+            <h3 className="mt-4 text-[48px] text-center text-gray-800">{question.question}</h3>
           </div>
         </div>
+
 
 
 
@@ -522,7 +522,7 @@ const QuizQuestion = ({ question, onAnswer, timeUp, questionNumber, totalQuestio
               key={index}
               onClick={() => handleAnswerClick(option)}
               disabled={selectedAnswer || timeLeft === 0}
-              className={`flex items-center justify-center w-full py-3 px-4 border-4 rounded-lg transition-colors bg-[#EEF5FF] text-[#081F3E] ${selectedAnswer || timeLeft === 0
+              className={`flex items-start justify-start w-full py-3 px-4 border-4 rounded-lg transition-colors bg-[#EEF5FF] text-[#081F3E] ${selectedAnswer || timeLeft === 0
                 ? option === question.correctAnswer
                   ? 'border-[#2FE545]' // Correct Answer: Green Border
                   : selectedAnswer === option
@@ -532,15 +532,15 @@ const QuizQuestion = ({ question, onAnswer, timeUp, questionNumber, totalQuestio
                 }`}
             >
               <div
-                className={`flex items-center justify-center gap-4 w-full ${selectedAnswer || timeLeft === 0
+                className={`flex items-start gap-4 w-full ${selectedAnswer || timeLeft === 0
                   ? option === question.correctAnswer || selectedAnswer === option
                     ? 'font-bold' // Bold for correct or incorrect option
                     : ''
                   : ''
                   }`}
               >
-                <span className="text-center">{String.fromCharCode(65 + index)}.</span>
-                <span className="text-center">{option}</span>
+                <span className="text-left">{String.fromCharCode(65 + index)}.</span>
+                <span className="text-left break-words leading-tight">{option}</span>
               </div>
             </button>
           ))}
@@ -553,10 +553,12 @@ const QuizQuestion = ({ question, onAnswer, timeUp, questionNumber, totalQuestio
 
 
 
+
+
         {/* Statement and Next Button */}
         {showStatement && (
           <div className="mt-6 p-6 flex flex-col justify-center items-center text-center">
-            <p className="text-[#081F3E] text-[28px] mb-6">{question.statement}</p>
+            <p className="text-[#081F3E] text-[38px] mb-6">{question.statement}</p>
             {showNextButton && (
               <div className="flex justify-center nextButton">
                 <button

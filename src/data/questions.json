@@ -2,115 +2,183 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the capital of France?",
-      "options": ["London", "Berlin", "Paris", "Madrid"],
-      "correctAnswer": "Paris",
-      "statement": "The capital of France is Paris."
+      "question": "Both Indeed & Glassdoor are owned by Recruit Holdings. Where is Recruit Holdings headquartered?",
+      "options": [
+        "Tokyo, Japan",
+        "New York, USA",
+        "Dublin, Ireland",
+        "London, UK"
+      ],
+      "correctAnswer": "Tokyo, Japan",
+      "statement": "Statement after the question: Indeed and Glassdoor are owned by Recruit Holdings, which is a publicly traded company founded in 1960 and headquartered in Tokyo. The company operates through three primary segments: HR Technology, Matching & Solutions, and Staffing. With a workforce of approximately 51,000 employees, Recruit Holdings continues to expand its global presence, offering a wide range of services that connect individuals and businesses across various industries"
     },
     {
       "id": 2,
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
-      "correctAnswer": "Mars",
-      "statement": "The planet known as the Red Planet is Mars."
+      "question": "What significant transition is Indeed undergoing to enhance employer experience on its platform?",
+      "options": [
+        "From a job site to a social networking site ",
+        "From a job site to a recruitment agency ",
+        "From a job site to a two-sided jobs marketplace",
+        "From a job site to a resume-building platform"
+      ],
+      "correctAnswer": "From a job site to a two-sided jobs marketplace",
+      "statement": "Statement after the question: From being the world’s #1 job site, Indeed is now the leading two-sided jobs marketplace that connects job seekers with employers."
     },
     {
       "id": 3,
-      "question": "What is the largest mammal in the world?",
-      "options": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
-      "correctAnswer": "Blue Whale",
-      "statement": "The largest mammal in the world is the Blue Whale."
+      "question": "Which of the following stars have spoken at past Indeed FutureWorks (Global or India)?",
+      "options": [
+        "African Elephant",
+        "Trevor Noah",
+        "Ryan Reynolds",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "statement": "Statement after the question: Anil Kumble was a speaker at Indeed FutureWorks Bengaluru in 2023. Trevor Noah and Ryan Reynolds were both speakers at the 2024 and 2022 Indeed FutureWorks events in USA."
     },
     {
       "id": 4,
-      "question": "Which element has the chemical symbol 'Au'?",
-      "options": ["Silver", "Copper", "Gold", "Iron"],
-      "correctAnswer": "Gold",
-      "statement": "Au is the chemical symbol for Gold."
+      "question": "How much data does Indeed collect in a day to help us match candidates with jobs?",
+      "options": [
+        "320 Terabytes",
+        "450 Terabytes",
+        "240 Terabytes",
+        "1030 Terabytes"
+      ],
+      "correctAnswer": "320 Terabytes",
+      "statement": "Statement after the question: Indeed collects 320 Terabytes of data, every day. This data comes from every job that is posted or aggregated, every search made, every application sent, every interview completed, and every hire made on Indeed and it feeds our AI matching engine."
     },
     {
       "id": 5,
-      "question": "What is the largest organ in the human body?",
-      "options": ["Heart", "Brain", "Liver", "Skin"],
-      "correctAnswer": "Skin",
-      "statement": "The skin is the largest organ in the human body."
+      "question": "Which of the following is one of Indeed’s Responsible AI principles?",
+      "options": [
+        "Job Seeker First",
+        "Fairness and Equity at the centre",
+        "Hiring is Human",
+        "All of the Above"
+      ],
+      "correctAnswer": "All of the Above",
+      "statement": "Statement after the question: Indeed’s 5 Responsible AI principles are Job Seeker First, Fairness and Equity at the centre, Listen and Learn, Innovate Responsibly and Hiring is Human. These principles govern the ethical use of AI at Indeed."
     },
     {
       "id": 6,
-      "question": "Which country is home to the Great Barrier Reef?",
-      "options": ["Brazil", "Australia", "Indonesia", "Thailand"],
-      "correctAnswer": "Australia",
-      "statement": "The Great Barrier Reef is located off the coast of Australia."
+      "question": "When was Indeed founded?",
+      "options": [
+        "2008",
+        "2007",
+        "2004",
+        "2002"
+      ],
+      "correctAnswer": "2004",
+      "statement": "Statement after the question: Indeed was founded in November 2004 by Paul Forster and Rony Kahan in Austin, Texas. Its mission is to help people find jobs by matching job seekers with jobs. Indeed introduced one of the first job search engines with an innovative pay-per-click model for employers. By 2010, it had become the most visited job site in the U.S., leading to its acquisition by Recruit Holdings in 2012, fueling global expansion. A 2020 partnership with Glassdoor further enhanced recruitment solutions, and by 2023, Indeed operated in over 60 countries, connecting millions of job seekers and employers."
     },
     {
       "id": 7,
-      "question": "What is the smallest prime number?",
-      "options": ["0", "1", "2", "3"],
-      "correctAnswer": "2",
-      "statement": "2 is the smallest and only even prime number."
+      "question": " What is the primary benefit of using Sponsored Jobs on Indeed?",
+      "options": [
+        "Free job postings",
+        "Increased visibility in search results",
+        "Guaranteed hires",
+        "Unlimited job postings"
+      ],
+      "correctAnswer": "Increased visibility in search results",
+      "statement": "Statement after the question: Sponsored Jobs posted directly on Indeed have 2.3X more applications than non-sponsored jobs Source: Indeed data (IN)"
     },
     {
       "id": 8,
-      "question": "Which vitamin is produced by the body when exposed to sunlight?",
-      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-      "correctAnswer": "Vitamin D",
-      "statement": "Vitamin D is produced by the body when skin is exposed to sunlight."
+      "question": "Where else will your job be seen if you have posted a job on Indeed?",
+      "options": [
+        "Glassdoor",
+        "StackOverflow",
+        "Wired",
+        "Google"
+      ],
+      "correctAnswer": "Glassdoor",
+      "statement": "Statement after the question: All jobs posted on Indeed will also be seen by job seekers on Glassdoor. Jobs sponsored on Indeed are also pushed through our Specialist and Trusted Media Networks, including sites like StackOverflow and Wired (for tech roles) and Google."
     },
     {
       "id": 9,
-      "question": "What is the hardest natural substance on Earth?",
-      "options": ["Gold", "Iron", "Diamond", "Platinum"],
-      "correctAnswer": "Diamond",
-      "statement": "Diamond is the hardest natural substance found on Earth."
+      "question": "How many jobs are posted on Indeed every second?",
+      "options": [
+        "8",
+        "10",
+        "11",
+        "15"
+      ],
+      "correctAnswer": "11",
+      "statement": "Statement after the question: On average, 11 jobs are posted on Indeed every second. As per Indeed’s worldwide data (2023 average), more than one job seeker is hired every 3 seconds on Indeed."
     },
     {
       "id": 10,
-      "question": "Which bird lays the largest egg?",
-      "options": ["Ostrich", "Eagle", "Penguin", "Emu"],
-      "correctAnswer": "Ostrich",
-      "statement": "The Ostrich lays the largest eggs of any bird species."
+      "question": "How many job seeker profiles does Indeed have globally?",
+      "options": [
+        "580 million profiles",
+        "520 million profiles",
+        "640 million profiles",
+        "700 million profiles"
+      ],
+      "correctAnswer": "580 million profiles",
+      "statement": "Statement after the question: Indeed has 580 Million job seeker profiles* which are available to 3.5 Million employers globally."
     },
     {
       "id": 11,
-      "question": "What is the capital of Japan?",
-      "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
-      "correctAnswer": "Tokyo",
-      "statement": "Tokyo is the capital city of Japan."
+      "question": "Which of the following features are included in Indeed's Smart Sourcing product?",
+      "options": [
+        "Matched Candidates",
+        "AI-Generated Candidate Highlights",
+        "Smart Messages (customisable AI-generated messages)",
+        "All of the Above"
+      ],
+      "correctAnswer": "All of the Above",
+      "statement": "Statement after the question: Indeed’s Smart Sourcing product combines the best of resume search and AI-driven matching, with features like Matched Candidates, AI-driven candidate highlights, Smart Message and more."
     },
     {
       "id": 12,
-      "question": "Which planet is closest to the Sun?",
-      "options": ["Venus", "Mars", "Mercury", "Earth"],
-      "correctAnswer": "Mercury",
-      "statement": "Mercury is the closest planet to the Sun in our solar system."
+      "question": " Which of the following insights can employers gather from the Employer Branding Hub, by Indeed & Glassdoor?",
+      "options": [
+        "Company review trends",
+        "Competitor benchmarking data",
+        "Job seeker sentiments",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "statement": "Statement after the question: You can use Employer Branding hub to manage employee reviews,Customize content and share updates, connect to your social media, dig into your employee experience, understand job seeker behavior, and measure work wellbeing. "
     },
     {
       "id": 13,
-      "question": "What is the main component of the Sun?",
-      "options": ["Oxygen", "Carbon", "Helium", "Hydrogen"],
-      "correctAnswer": "Hydrogen",
-      "statement": "The Sun is primarily composed of Hydrogen."
+      "question": "How does the Employer Branding Hub help employers respond to reviews?",
+      "options": [
+        "By suggesting pre-written responses",
+        "By offering a single dashboard for timely engagement",
+        "By removing negative reviews",
+        "By outsourcing responses to third-party teams"
+      ],
+      "correctAnswer": "By offering a single dashboard for timely engagement",
+      "statement": "Statement after the question: Tell a powerful brand story to a wide talent pool with world-class employer branding tools. The Employer Branding Hub includes unique branding opportunities to manage your brand across Glassdoor + Indeed in one simple place, with robust insights and analytics to inform your strategy and streamline your process."
     },
     {
       "id": 14,
-      "question": "Which ocean is the largest?",
-      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
-      "correctAnswer": "Pacific",
-      "statement": "The Pacific Ocean is the largest and deepest ocean on Earth."
+      "question": "Which professional networking platform did Glassdoor acquire in 2021?",
+      "options": [
+        "Fishbowl",
+        "Blind",
+        "Xing",
+        "Jobcase"
+      ],
+      "correctAnswer": "Fishbowl",
+      "statement": "Statement after the question: In 2021, Glassdoor, a leader in workplace insights, acquired Fishbowl, a professional networking platform that fosters industry-specific conversations and community building. This strategic acquisition allowed Glassdoor to enhance its offerings by integrating real-time workplace discussions, empowering professionals to exchange insights, share experiences, and build connections within their industries."
     },
     {
       "id": 15,
-      "question": "What is the chemical symbol for silver?",
-      "options": ["Si", "Ag", "Au", "Fe"],
-      "correctAnswer": "Ag",
-      "statement": "Ag is the chemical symbol for silver."
-    },
-    {
-      "id": 16,
-      "question": "Which is the longest river in the world?",
-      "options": ["Amazon", "Nile", "Mississippi", "Yangtze"],
-      "correctAnswer": "Nile",
-      "statement": "The Nile River is the longest river in the world."
+      "question": "How does Indeed Smart Sourcing identify candidates who are likely to respond?",
+      "options": [
+        "By analyzing their job search activity and engagement history",
+        "By conducting surveys with job seekers",
+        "By using referral programs",
+        "By matching based on certifications only"
+      ],
+      "correctAnswer": "By analyzing their job search activity and engagement history",
+      "statement": "Demo Area 3 (Smart Sourcing + Features Activation) - Pre-Function 1."
     }
   ]
 }
