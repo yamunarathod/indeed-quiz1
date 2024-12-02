@@ -50,11 +50,21 @@ const Results = ({ score, totalQuestions, userName }) => {
       {/* Overlay content before video ends */}
       {!videoEnded && isHighScore && (
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-10">
-          <div className="text-center">
+          <div className="text-center w-full flex flex-col justify-center items-center">
             {userName && (
               <span
-                className="text-[156px] font-bold"
-                style={{ color: '#EE5C9F' }}
+                className="font-bold w-[90%] h-[200px] text-center"
+                style={{
+                  color: '#EE5C9F',
+                  fontSize: 'clamp(36px, 10vw, 156px)', // Dynamically adjust font size based on viewport width
+                  display: 'flex', // Ensures the span is treated as a block element and respects the width/height
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  textOverflow: 'ellipsis', // Adds ellipsis if the text overflows
+                  whiteSpace: 'nowrap', // Prevents text from wrapping
+                  overflow: 'hidden', // Hides any overflowed text
+                  marginTop: '150px', // Adjust margin as needed
+                }}
               >
                 {userName}
               </span>
@@ -64,6 +74,8 @@ const Results = ({ score, totalQuestions, userName }) => {
             </p>
           </div>
         </div>
+
+
       )}
 
       {/* New div with background image after the video ends (only for high scores) */}
@@ -98,7 +110,7 @@ const Results = ({ score, totalQuestions, userName }) => {
                   fontWeight: 'bold',
                   fontSize: '60px',
                   marginLeft: '10px', // Adds space between "got" and the score
-                  marginLeft: '10px',
+                  marginRight: '10px',
                 }}
               >
                 {score}
