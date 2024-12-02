@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": ["London", "Berlin", "Paris", "Madrid"],
+      "correctAnswer": "Paris",
+      "statement": "The capital of France is Paris."
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars",
+      "statement": "The planet known as the Red Planet is Mars."
+    },
+    {
+      "id": 3,
+      "question": "What is the largest mammal in the world?",
+      "options": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+      "correctAnswer": "Blue Whale",
+      "statement": "The largest mammal in the world is the Blue Whale."
+    },
+    {
+      "id": 4,
+      "question": "Which element has the chemical symbol 'Au'?",
+      "options": ["Silver", "Copper", "Gold", "Iron"],
+      "correctAnswer": "Gold",
+      "statement": "Au is the chemical symbol for Gold."
+    },
+    {
+      "id": 5,
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Brain", "Liver", "Skin"],
+      "correctAnswer": "Skin",
+      "statement": "The skin is the largest organ in the human body."
+    },
+    {
+      "id": 6,
+      "question": "Which country is home to the Great Barrier Reef?",
+      "options": ["Brazil", "Australia", "Indonesia", "Thailand"],
+      "correctAnswer": "Australia",
+      "statement": "The Great Barrier Reef is located off the coast of Australia."
+    },
+    {
+      "id": 7,
+      "question": "What is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "correctAnswer": "2",
+      "statement": "2 is the smallest and only even prime number."
+    },
+    {
+      "id": 8,
+      "question": "Which vitamin is produced by the body when exposed to sunlight?",
+      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      "correctAnswer": "Vitamin D",
+      "statement": "Vitamin D is produced by the body when skin is exposed to sunlight."
+    },
+    {
+      "id": 9,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "correctAnswer": "Diamond",
+      "statement": "Diamond is the hardest natural substance found on Earth."
+    },
+    {
+      "id": 10,
+      "question": "Which bird lays the largest egg?",
+      "options": ["Ostrich", "Eagle", "Penguin", "Emu"],
+      "correctAnswer": "Ostrich",
+      "statement": "The Ostrich lays the largest eggs of any bird species."
+    },
+    {
+      "id": 11,
+      "question": "What is the capital of Japan?",
+      "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+      "correctAnswer": "Tokyo",
+      "statement": "Tokyo is the capital city of Japan."
+    },
+    {
+      "id": 12,
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Mars", "Mercury", "Earth"],
+      "correctAnswer": "Mercury",
+      "statement": "Mercury is the closest planet to the Sun in our solar system."
+    },
+    {
+      "id": 13,
+      "question": "What is the main component of the Sun?",
+      "options": ["Oxygen", "Carbon", "Helium", "Hydrogen"],
+      "correctAnswer": "Hydrogen",
+      "statement": "The Sun is primarily composed of Hydrogen."
+    },
+    {
+      "id": 14,
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "correctAnswer": "Pacific",
+      "statement": "The Pacific Ocean is the largest and deepest ocean on Earth."
+    },
+    {
+      "id": 15,
+      "question": "What is the chemical symbol for silver?",
+      "options": ["Si", "Ag", "Au", "Fe"],
+      "correctAnswer": "Ag",
+      "statement": "Ag is the chemical symbol for silver."
+    },
+    {
+      "id": 16,
+      "question": "Which is the longest river in the world?",
+      "options": ["Amazon", "Nile", "Mississippi", "Yangtze"],
+      "correctAnswer": "Nile",
+      "statement": "The Nile River is the longest river in the world."
+    }
+  ]
+}

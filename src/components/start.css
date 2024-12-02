@@ -1,0 +1,105 @@
+.startButton{
+    width: 423px;
+    height: 135px;
+    position: absolute;
+    top: 75%; /* Position it in the middle vertically */
+    left: 31%; /* Position it in the middle horizontally */
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05062D;
+    color: white;
+    font-size: 48px;
+    position: relative;
+    background: linear-gradient(to right, #EE5C9F, #07D1EB);
+    overflow: hidden;
+    padding: 3px;
+    box-shadow: 0 0 0 3px transparent; /* Initial state with transparent border */
+    transition: all 0.3s ease-in-out; 
+
+}
+#start-button{
+    width: 100%;
+    height: 100%;
+     background: #05062D; /* Button background */
+    color: white;
+    border: none;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+
+
+}
+#submit-button {
+    width: 100%;
+    height: 100%;
+    background: #05062D; /* Button background */
+    color: white;
+    border: none;
+      font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.submitButton {
+   width: 423px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05062D;
+    color: white;
+    font-size: 24px;
+    background: linear-gradient(to right, #EE5C9F, #07D1EB);
+    overflow: hidden;
+    padding: 3px;
+    box-shadow: 0 0 0 3px transparent; /* Initial state with transparent border */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Full-width input field with some height */
+.inputField {
+    width: 80vw;
+    height: 130px;
+    color: #081F3E;
+    margin-bottom: 15px; /* Spacing between input and submit button */
+}
+
+/* Input Styles */
+.inputFieldStyle {
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border: 5px solid #204294;
+    border-radius: 8px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/* Focused input field styles */
+.inputFieldStyle:focus {
+    border-color: #081F3E;
+    outline: none;
+    box-shadow: 0 0 5px rgba(7, 209, 235, 0.5);
+}
+
+/* Placeholder Styles */
+.inputFieldStyle::placeholder {
+    color: #081F3E; /* Light placeholder color */
+}
+

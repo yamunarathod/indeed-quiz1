@@ -1,0 +1,58 @@
+body {
+  background-color: #f7fafc; /* Light gray background */
+}
+.container {
+  max-width: 600px; /* Center the content */
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px; /* Space inside the container */
+}
+
+
+@keyframes popup {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-popup {
+  animation: popup 0.5s ease-in-out;
+}
+
+.nextButton {
+   width: 296px;
+    height: 94px;
+
+    background-color: #05062D;
+    color: white;
+    font-size: 24px;
+
+  
+}
+#submit-button {
+    width: 100%;
+    height: 100%;
+    background: #05062D; /* Button background */
+    color: white;
+    border: none;
+      font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+        display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
