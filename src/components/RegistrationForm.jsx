@@ -46,7 +46,7 @@ const RegistrationForm = ({ onSubmit }) => {
               placeholder="Full Name"
               className="inputFieldStyle"
               value={formData.name}
-              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+              onChange={(e) => setFormData({ ...formData, name: e.target.value.toUpperCase() })}
               disabled={isSubmitting}
             />
           </div>
